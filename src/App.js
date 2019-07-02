@@ -6,6 +6,13 @@ import Form from './components/Form.js';
 import './design/app.scss';
 import Footer from './components/Footer.js';
 
+import {useState} from 'react';
+
+export default function App(){
+  const [urlValue, setURL] = setState({urlValue:''});
+  const [selectedMethod, setMethod] = useState({selectedMethod:''})
+}
+
 class App extends React.Component {
   constructor(props) {
     super(props);
